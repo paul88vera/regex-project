@@ -1,12 +1,13 @@
 # Regex-Project
 
 ## Summary
-The password below is a mix of characters, symbols, and numbers. The length of the string is 20 characters.
-
+The top line is a regex or regular expression.
 ```
-Pa_$$w-0rdsAr3Gr3At1
+$ ^[0-9 a-z A-Z -_]{4,20}$
+$ Pa_$$w-0rdsAr3Gr3At1
 ```
-I will explain how we can use Regex to create expressions that will allow for the correct possible inputs.
+The password above is a mix of characters, symbols, and numbers. The length of the string is 4-20 characters.
+It is as example password that the regex would be able to approve.
 
 ---
 
@@ -28,10 +29,16 @@ I will explain how we can use Regex to create expressions that will allow for th
 
 ## Regex Components
 
-
 ### Anchors
+An regex anchor allows you to match a position before, (^ - carat anchor matches the beginning of the text), or after, ($ - dollar anchor matches the end of the text), a string of characters.
+
+A regex example is provided below:
+```
+^[a-z]$
+```
 
 ### Quantifiers
+
 
 ### OR Operator
 
