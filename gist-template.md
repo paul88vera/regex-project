@@ -92,9 +92,9 @@ Regex can have flags that can affect the way a search is interpreted. There are 
 
 `/aBc/i would still match AbC`
 
-`m` - multiline / 
+`m` - multiline / will make it possible to search on multilines at once.
 
-`u` - unicode / 
+`u` - unicode / will make it possible to search for unicode characters.
 
 `g` - global search / will match all occurences which means it will be tested against all possible matches in a string.
 
